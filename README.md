@@ -1,6 +1,12 @@
 # Distributed-Vampire-Number-Calculator
 
-Steps to run :
+**Problem Definition :**
+
+An interesting kind of number in mathematics is vampire number (Links to an external site.). A vampire number is a composite (Links to an external site.) natural number (Links to an external site.) with an even number of digits, that can be factored into two natural numbers each with half as many digits as the original number and not both with trailing zeroes, where the two factors contain precisely all the digits of the original number, in any order, counting multiplicity.  A classic example is: 1260= 21 x 60.
+
+A vampire number can have multiple distinct pairs of fangs. A vampire numbers with 2 pairs of fangs is: 125460 = 204 × 615 = 246 × 510.
+
+**Steps to run :**
 
 1. Pull the code to your local machine. Ensure that the machine has Elixir installed and is working fine.
 2. Go to the root directory of pulled code, and open terminal.
@@ -11,15 +17,7 @@ Steps to run :
       105210 210 501
    where 105210 is a vampire number with fangs 210 and 501.
 
-Problem Definition : 
-
-An interesting kind of number in mathematics is vampire number (Links to an external site.). A vampire number is a composite (Links to an external site.) natural number (Links to an external site.) with an even number of digits, that can be factored into two natural numbers each with half as many digits as the original number and not both with trailing zeroes, where the two factors contain precisely all the digits of the original number, in any order, counting multiplicity.  A classic example is: 1260= 21 x 60.
-
-A vampire number can have multiple distinct pairs of fangs. A vampire numbers with 2 pairs of fangs is: 125460 = 204 × 615 = 246 × 510.
-
-The goal of this first project is to use Elixir and the actor model to build a good solution to this problem that runs well on multi-core machines.
-
-Results : 
+**Results :**
 
 The program automatically detects the numbers of cores on host machine or network and delegates the work according to that number to achieve a maximum parallelism. We were able to achieve a parallelism of 4 with the program running on a single macbook with following configuration :
 ![System Configuration](https://github.com/gauravUFL/Distributed-Vampire-Number-Calculator/blob/main/Project1_Config%207.01.05%20PM.png)

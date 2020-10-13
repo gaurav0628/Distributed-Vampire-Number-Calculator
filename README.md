@@ -11,14 +11,14 @@ The goal of this first project is to use Elixir and the actor model to build a g
 Results : 
 
 The program automatically detects the numbers of cores on host machine or network and delegates the work according to that number to achieve a maximum parallelism. We were able to achieve a parallelism of 4 with the program running on a single macbook with following configuration :
-![alt text](https://drive.google.com/file/d/1TQRQTw1r7KSJiMp0xg4v1o5yT259LOgN/view?usp=sharing)
+![alt text](https://github.com/gauravUFL/Distributed-Vampire-Number-Calculator/blob/main/Project1_Config%207.01.05%20PM.png)
 
 Running Time : (for mix run proj1.exs 100000 200000)
 real 0m0.601s
 user 0m2.341s
 sys 0m0.141s
 Ratio of CPU time to Running time is : (user+sys)/real = 4.129
-![alt text](https://drive.google.com/file/d/1uonMpCMEEDs9Zvuz0Xm1aGmC8b75m7f1/view?usp=sharing)
+![alt text](https://github.com/gauravUFL/Distributed-Vampire-Number-Calculator/blob/main/Project1_Process%207.01.05%20PM.png)
 
 How to run :
 
